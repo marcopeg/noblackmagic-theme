@@ -9,24 +9,24 @@ cd noblackmagic-theme
 git checkout master
 
 # build the product
-#gulp build
-#mv build ../build
+gulp build
+mv build ../build
 
 # clean existing branch
-#git checkout master
-#mv .git ../
-#find ./ -mindepth 1 -delete
-#mv ../.git ./
+git checkout gh-pages
+mv .git ../
+find ./ -mindepth 1 -delete
+mv ../.git ./
 
 # add & commit
-#mv ../build/dev/* .[^.]* ./
-#git add -A .
-#git commit -m "publish"
+mv ../build/dev/* .[^.]* ./
+git add -A .
+git commit -m "publish"
 
 # publish
-#git status
-#git push
+git status
+git push
 
 # clean up
-#cd ../../
-#rm -rf deploy
+cd ../../
+rm -rf deploy
