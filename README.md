@@ -24,6 +24,16 @@ This theme uses PoliteJS' [_Workspace_][wks].
       - karma.conf.js
       - Gulpfile.js
 
+## Deploy to GitHub Pages
+
+The theme demo is public available at:  
+http://marcopeg.github.io/noblackmagic-theme/
+
+In order update the public demo do as follow:
+
+- commit all your changes and push the master branch
+- run `./deploy.sh` 
+- enjoy
 
 [wks]: https://github.com/PoliteJS/workspace "Single Page Application Workspace"
 [npm]: npmjs.org
